@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My First Javascript after Learning CSS and HTML</h1>
+    <p>Find out today's date:</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById ('demo').innerHTML = Date()"
+    >
+      Click me to display Date and Time
+    </button>
+    <p id="demo"></p>
+
+    <p>Now let us turn on the bulb</p>
+    <button
+      onclick="document.getElementById('myImage').src='images/bulbon.png'"
+    >
+      ON 1
+    </button>
+
+    <img src="images/bulboff.png" id="myImage" style="width: 450px" />
+
+    <button
+      onclick="document.getElementById('myImage').src='images/bulboff.png'"
+    >
+      OFF 0
+    </button>
+  </body>
+</html>
